@@ -62,11 +62,13 @@ body{
 	font-family: 'Inter', sans-serif;
 	line-height: 1.5;
 	font-size: 16px;
+	margin-bottom: 50px;
 }
 .container{
 	max-width: 1100px;
 	margin: 0 auto;
 	width: 100%;
+
 }
 
 /* Flex */
@@ -80,6 +82,9 @@ body{
 }
 .wrap{
 	flex-wrap: wrap;
+}
+.flex-start{
+	align-items: flex-start;
 }
 .flex-20{
   flex: 0 1 25%;
@@ -167,4 +172,109 @@ h1{
 }
 .small-image{
 	margin-top: 20rem;
+}
+.small-image img{
+	vertical-align: middle;
+}
+.small-image a{
+	font-size: 1.9rem;
+	color: #BFCAE1;
+	font-weight: 800;
+	vertical-align: middle;
+    margin-left: 0.5rem;
+}
+.line{
+	background-color: #BFCAE1;
+    height: 0.1rem;
+	margin: 2.5rem 0; 
+}
+.arrow{
+	background-color: #59BFC2;
+}
+.graph-heading{
+	font-size: 2.2rem;
+	color: var(--secondary);
+	font-weight: 500;
+}
+.graph-para{
+	margin: 2rem 0;
+	line-height: 2;
+	color: #454a57;
+}
+.table{
+	border-collapse: collapse;
+	width: 100%;
+}
+td{
+	border: 1px solid #dddd;
+    text-align: left;
+	padding: 8px;
+}
+.table-section{
+	margin: 5rem;
+}
+tr:nth-child(odd) {
+	background-color: #D5E5E5;
+  }
+th{
+	background-color: var(--primary);
+	text-align: left;
+	padding: 8px;
+	color: white;
+	font-weight: 700;
+}
+h3{
+    text-align: center;
+	color: var(--secondary);
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+}
+.trial-section{
+	text-align: center;
+	background-color: var(--primary);
+	padding: 5rem ;
+	border-radius: 30px;
+}
+h4{
+	color: white;
+	font-size: 2.2rem;
+}
+.footer{
+    background-color: #F8FAFE;
+}
+.line-footer{
+    height: 2px;
+    width: 800px;
+    background-color: #E6F0FD;
+    margin-top: 80px;
+}
+.small{
+    display: block;
+}
+.icon-color-footer a{
+    margin-right: 10px;
+    color: black;
+}
+.margin-top-footer{
+    margin-top: 30px;
+}
+.line-height-footer{
+    line-height: 2;
+}
+.footer-icon{
+    color: var(--secondary) ;
+}
+.footer-heading{
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer{
+	margin: 6rem 0;
+}
+.brand-logo{
+	color: var(--secondary);
+	font-size: 1.3rem;
+	font-weight: 700;
 }
